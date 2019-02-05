@@ -1,6 +1,8 @@
 class LoopProtector {
 
-    constructor(private timeout = 1000) {}
+    constructor(timeout = 1000) {
+        this.timeout = timeout;
+    }
 
     protect(code) {
         if (typeof code !== 'string') {
