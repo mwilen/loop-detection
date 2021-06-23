@@ -1,5 +1,5 @@
-# loop-detection
-Loop-protector is a small library to used detect if an infinite loop occurs. Usually used in order to prevent user-provided code to cause the browser tab to completely time out and instead cancels the code execution of the loop that is occuring infinitely.
+# loop-protector
+Loop-protector is a small library used to detect if an infinite loop occurs and **protect** you from it looping forever. Usually used in order to prevent user-provided code to cause the browser tab to completely time out and instead cancels the code execution of the loop that is occuring infinitely.
 
 This project was inspired and is a fork of [infinite-loop-detector](https://github.com/xieranmaya/infinite-loop-detector) which is a bit outdated and also doesn't treat certain looping scenarios that well.
 
